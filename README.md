@@ -1,2 +1,3 @@
 # server_vim
-vim config for server
+
+My vim config for server
