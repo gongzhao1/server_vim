@@ -1,12 +1,10 @@
-"==========================================
-" ProjectLink: https://github.com/wklken/vim-for-server
-" Author:  wklken
+"=========================================
+" Author: zhao
 " Version: 0.2
-" Email: wklken@yeah.net
-" BlogPost: http://www.wklken.me
-" Donation: http://www.wklken.me/pages/donation.html
+" Email: gongzhao1@foxmail.com
+" BlogPost: https://gongzhao1.coding.me/
 " ReadMe: README.md
-" Last_modify: 2015-07-07
+" Last_modify: 2019-08-01
 " Desc: simple vim config for server, without any plugins.
 "==========================================
 
@@ -206,8 +204,8 @@ set pastetoggle=<F5>            "    when in insert mode, press <F5> to go to
 au InsertLeave * set nopaste
 nnoremap <F6> :exec exists('syntax_on') ? 'syn off' : 'syn on'<CR>
 
-" kj 替换 Esc
-inoremap kj <Esc>
+" jk 替换 Esc
+inoremap jk <Esc>
 
 " Quickly close the current window
 nnoremap <leader>q :q<CR>
